@@ -72,43 +72,43 @@ public class GwestrShipmentC
     extends SObject
 {
 
-    @XmlElementRef(name = "CreatedById", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+	@XmlElementRef(name = "CreatedById", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<String> createdById;
-    @XmlElementRef(name = "CreatedDate", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "CreatedDate", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> createdDate;
-    @XmlElementRef(name = "IsDeleted", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "IsDeleted", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<Boolean> isDeleted;
-    @XmlElementRef(name = "LastModifiedById", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "LastModifiedById", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<String> lastModifiedById;
-    @XmlElementRef(name = "LastModifiedDate", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "LastModifiedDate", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> lastModifiedDate;
-    @XmlElementRef(name = "Name", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "Name", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<String> name;
-    @XmlElementRef(name = "OwnerId", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "OwnerId", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<String> ownerId;
-    @XmlElementRef(name = "SystemModstamp", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "SystemModstamp", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> systemModstamp;
-    @XmlElementRef(name = "gwestr__ContactEmail__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "gwestr__ContactEmail__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<String> gwestrContactEmailC;
-    @XmlElementRef(name = "gwestr__Contact_Phone__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "gwestr__Contact_Phone__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<String> gwestrContactPhoneC;
-    @XmlElementRef(name = "gwestr__Insurance__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "gwestr__Insurance__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<Double> gwestrInsuranceC;
-    @XmlElementRef(name = "gwestr__OverWeight__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "gwestr__OverWeight__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<Double> gwestrOverWeightC;
-    @XmlElementRef(name = "gwestr__Rush__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "gwestr__Rush__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<Boolean> gwestrRushC;
-    @XmlElementRef(name = "gwestr__Scheduled_Delivery__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "gwestr__Scheduled_Delivery__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> gwestrScheduledDeliveryC;
-    @XmlElementRef(name = "gwestr__Status__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "gwestr__Status__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<String> gwestrStatusC;
-    @XmlElementRef(name = "gwestr__TrackingExtId__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "gwestr__TrackingExtId__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<String> gwestrTrackingExtIdC;
-    @XmlElementRef(name = "gwestr__Tracking_URL__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "gwestr__Tracking_URL__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<String> gwestrTrackingURLC;
-    @XmlElementRef(name = "gwestr__Warnings__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "gwestr__Warnings__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<String> gwestrWarningsC;
-    @XmlElementRef(name = "gwestr__Weight__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "gwestr__Weight__c", namespace = "urn:sobject.enterprise.soap.sforce.com", type = JAXBElement.class)
     protected JAXBElement<Double> gwestrWeightC;
 
     /**

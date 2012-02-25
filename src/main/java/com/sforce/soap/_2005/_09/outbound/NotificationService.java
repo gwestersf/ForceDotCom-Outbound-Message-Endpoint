@@ -1,12 +1,12 @@
 package com.sforce.soap._2005._09.outbound;
 
-import java.net.MalformedURLException;
 import java.net.URL;
+
 import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
 import javax.xml.ws.WebEndpoint;
 import javax.xml.ws.WebServiceClient;
 import javax.xml.ws.WebServiceFeature;
-import javax.xml.ws.Service;
 
 /**
  * Notification Service Implementation
@@ -45,27 +45,6 @@ public class NotificationService extends Service {
 
     public NotificationService() {
         super(WSDL_LOCATION, SERVICE);
-    }
-    
-    //This constructor requires JAX-WS API 2.2. You will need to endorse the 2.2
-    //API jar or re-run wsdl2java with "-frontend jaxws21" to generate JAX-WS 2.1
-    //compliant code instead.
-    public NotificationService(WebServiceFeature ... features) {
-        super(WSDL_LOCATION, SERVICE, features);
-    }
-
-    //This constructor requires JAX-WS API 2.2. You will need to endorse the 2.2
-    //API jar or re-run wsdl2java with "-frontend jaxws21" to generate JAX-WS 2.1
-    //compliant code instead.
-    public NotificationService(URL wsdlLocation, WebServiceFeature ... features) {
-        super(wsdlLocation, SERVICE, features);
-    }
-
-    //This constructor requires JAX-WS API 2.2. You will need to endorse the 2.2
-    //API jar or re-run wsdl2java with "-frontend jaxws21" to generate JAX-WS 2.1
-    //compliant code instead.
-    public NotificationService(URL wsdlLocation, QName serviceName, WebServiceFeature ... features) {
-        super(wsdlLocation, serviceName, features);
     }
 
     /**
