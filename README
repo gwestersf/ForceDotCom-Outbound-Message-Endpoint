@@ -1,1 +1,7 @@
-Todo
+How to create java classes from a WSDL you downloaded from Salesforce:
+
+bin/wsdl2java workflowOutboundMessage.wsdl
+
+How to create a web service from a java class with Apache CXF:
+
+../bin/java2ws -wsdl -cp ~/git/crm-bridge/target/classes/ -server -a https://crm-bridge.herokuapp.com/payment -V com.heroku.crm.CrmService
