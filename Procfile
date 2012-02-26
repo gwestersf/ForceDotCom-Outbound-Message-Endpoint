@@ -1,1 +1,1 @@
-web:    java -cp target/crm-service.jar com.heroku.crm.HerokuApp
+web:    java -cp target/classes com.heroku.crm.HerokuApp
