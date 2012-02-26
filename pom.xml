@@ -3,7 +3,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.force.api</groupId>
   <artifactId>crm-bridge</artifactId>
-  <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Salesforce CRM Bridge</name>
   <url>https://crm-bridge.herokuapp.com</url>

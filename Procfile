@@ -1,1 +1,1 @@
-web:    java -cp target/classes:target/crm-bridge.jar com.heroku.crm.HerokuApp
+web:    java -cp target/classes:target/dependency/* com.heroku.crm.HerokuApp
