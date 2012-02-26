@@ -7,7 +7,7 @@ import javax.jws.WebService;
 
 import com.heroku.crm.model.Payment;
 
-@WebService
+@WebService()
 public class CrmService {
 
 	@WebMethod

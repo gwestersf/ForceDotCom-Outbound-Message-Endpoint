@@ -39,7 +39,7 @@
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
-          <compilerArgument>-verbose -bootclasspath ${java.home}\lib\rt.jar</compilerArgument>
+          <!--  <compilerArgument>-verbose -bootclasspath ${java.home}\lib\rt.jar</compilerArgument>  -->
         </configuration>
       </plugin>
     </plugins>

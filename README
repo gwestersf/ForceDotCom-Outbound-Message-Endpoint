@@ -1,3 +1,8 @@
+Required enviornment variables to run this app:
+
+PORT=80
+
+
 How to create java classes from a WSDL you downloaded from Salesforce:
 
 bin/wsdl2java workflowOutboundMessage.wsdl
